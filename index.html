@@ -1,1 +1,119 @@
-:flushed:
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>meow</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--Import w3.css-->
+		<link rel="stylesheet" href="biopage/web/hack.css"> <!--Import hack font from files-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		
+		
+		
+		
+		
+		<style>
+			
+			@keyframes colorchange
+		    {
+		      0%   {background: #ff85f5;}
+		      50%  {background: #c385ff;}
+		      100% {background: #ff85f5;}
+		    }
+		    /* Chrome & Safari*/
+		    @-webkit-keyframes colorchange
+		    {
+		      0%   {background: #ff85f5;}
+		      50%  {background: #c385ff;}
+		      100% {background: #ff85f5;}
+		    }
+			
+			body {
+				/* background: linear-gradient(to right, #ff85f5 0%, #c385ff 100%); */
+				animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
+         		/* you could also use milliseconds (ms) or something like 2.5s */
+      			-webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+			}
+
+			body,h1 {font-family: "Hack", monospace}
+
+			body, html {height: 100%}
+			.bgimg {
+					min-height: 100%;
+					background-position: center;
+					background-size: cover;
+			}
+			.adiscord, .amatrix{
+				display:inline;
+			}
+			.ctgp, .discord, .matrix, .mastodon, .twitter{
+				display:none;
+				color: rgba(255,255,255,0.5);
+			}
+			.actgp:hover + .ctgp {
+				display:inline;
+			}
+			.adiscord:hover + .discord {
+				display:inline;
+			}
+			.amatrix:hover + .matrix {
+				display:inline;
+			}	
+			.amastodon:hover + .mastodon {
+				display:inline;
+			}
+	
+			.atwitter:hover + .twitter {
+				display:inline;
+			}
+		</style>
+		
+		
+		
+	</head>
+
+	<body>
+		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+
+			<div class="w3-display-topleft w3-padding-large w3-xlarge">
+				<img src="jo.png" alt="jo" height="32">
+			</div>
+			<div class="w3-display-middle">
+				<h1 class="w3-jumbo w3-animate-top w3-center">nya</h1>
+				<!--
+				<hr class="w3-border-white" style="margin:auto;width:70%">
+				<p class="w3-large w3-center">hi this is my site</p> -->
+			</div>
+			<div class="w3-display-bottomleft w3-padding-large">
+				<br> <img src="github.png" alt="GitHub:" height="16"> <a href="https://github.com/j0w0/">j0w0</a>
+				<br> <img src="gitlab.png" alt="GitLab:" height="16"> <a href="https://gitlab.com/j0_">j0_</a>
+				
+				<br> <img src="twitch.png" alt="Twitch:" height="16"> <a href="https://www.twitch.tv/0xJO/">0xJO</a>
+				
+				<br><img src="discord.png" alt="Discord:" height="16"> jo!#9211
+				
+				<br> <img src="matrix.png" alt="Matrix:" height="16"> <a href="https://matrix.to/#/@jo:catgirl.party" class="amatrix">@jo:catgirl.party</a><div class="matrix"> (I prefer using matrix!)</div>
+				<br><img src="mastodon.png" alt="Mastodon:" height="16"> <a rel="me" class="amastodon" href="https://mas.to/@jo">@jo@mas.to</a><div class="mastodon"> (The best social media!)</div>
+				<br><img src="twitter.png" alt="Twitter:" height="16"> <a class="atwitter" href="https://twitter.com/_0xJO">@_0xJO</a><div class="twitter"> (i dont use twitter at all)</div>
+				<br> <img src="mail.png" alt="Email:" height="16"> <a href="mailto://jo@catgirl.party">jo@catgirl.party</a>
+				
+				<br> <img src="nx.png" alt="Switch:" height="16"> SW-0368-8934-4592
+				
+				<br> <img src="wiimmfi.png" alt="Wiimmfi:" height="16"> <a class="actgp" href="https://wiimmfi.de/status?v=97769">1552-1928-2601</a><div class="ctgp"> (I play CTGP sometimes!)</div>
+				
+				<br> <img src="nnid.png" alt="NNID:" height="16"> joo_wiiu
+				
+				<br> <img src="3ds.png" alt="3DS:" height="16"> 0748-7654-3238
+				<br> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVRIidWVvU4CURCFZwk/pRqjlY0WPgBIr7FXMMZarRTs5QmI8SHERxBfQ6lBlEpjYoI2mCCS8Fns3HCFy+5ibJhkszvnzD3DDnfPFZn18IJIICkiOb3SIrKi1IuI1ESkKiI3nud9T90Z2ANahMcTkJ9GOAZcWgJ9vX8AG0BWn20O4AKIRWlgxLvAKdDQ/NCqOVKsDhSAL9MkyliM+CaQ0bwNxK26uGIAaWBL1wDkJokndZ4AJ4qVNL9y1FeUO9e8oHkLf3OMLTjg/2Lf6Np/SvSdEB7jYwKaZqYW9q7YkqN+Wbm2haUVa7gadJSct7CeYilHfUq5noUtKNYxWPi+nRxBLjBwNXjV+5qFfep9ziFisI6FrY5oSdwi70VkXURqwKjYmwMzscg4eWce7DeoTlL4Q9yOIUDC2kmjH1rFUX+tXEnzouYPQMLZFshrURf/849qFdu6ZgDsBL4bviuCb2BF3GZ3rFgdOGNoduXQ4eHbtWkCv+06i9uuB0CZKHZtNcoBj4RHM2gsYUdmQkR2xfeWjAyPzGcZHplVz/P6kX/5zMUPgIndDZjgQjkAAAAASUVORK5CYII=" alt="Site:" height="16"> <a href="https://transvoice.party">transvoice.party</a>
+
+				
+				<!--
+				<br> <a href="contact.html"><i class="fa fa-ellipsis-h fa-lg"></i></a> 
+				-->
+			</div>
+		</div>
+	</body>
+</html>
