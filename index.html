@@ -42,14 +42,36 @@
 		 /* Set font */
 		 body,h1 {font-family: "Hack", monospace}
 
-		 
+		 /* Set body & background */
 		 body, html {height: 100%}
 		 .bgimg {min-height: 100%;background-position: center;background-size: cover;}
 
-		 
+		 /* Show popup messages */
 		 .adiscord, .amatrix{display:inline;}
 		 .ctgp, .discord, .matrix, .mastodon, .twitter{display:none;color: rgba(255,255,255,0.5);}
 		 .actgp:hover + .ctgp, .adiscord:hover + .discord, .amatrix:hover + .matrix, .amastodon:hover + .mastodon, .atwitter:hover + .twitter {display:inline;}
+
+
+		 /* Mobile */
+		 @media only screen and (max-width: 600px) {
+
+			 body {
+				 font-size:21px;
+			 }
+
+			 #contacts img {
+				 height:21px;
+			 }
+
+			 #topLeftIcon img {
+				 height:36px;
+			 }
+			 
+			 #centerText {
+				 display: none;
+			 }
+		 }
+
 		</style>
 	</head>
 	
@@ -58,12 +80,12 @@
 		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 
 			<!-- Contains top left icon -->
-			<div class="w3-display-topleft w3-padding-large w3-xlarge">
+			<div id="topLeftIcon" class="w3-display-topleft w3-padding-large w3-xlarge">
 				<img src="jo.png" alt="jo" height="32">
 			</div>
 
 			<!-- Contains center text -->
-			<div class="w3-display-middle">
+			<div id="centerText" class="w3-display-middle">
 				<h1 class="w3-jumbo w3-animate-top w3-center">hiya</h1>
 				<!-- extra unused text -->
 				<!-- <hr class="w3-border-white" style="margin:auto;width:70%"> -->
@@ -71,7 +93,7 @@
 			</div>
 
 			<!-- Contacts/links -->
-			<div class="w3-display-bottomleft w3-padding-large">
+			<div id="contacts" class="w3-display-bottomleft w3-padding-large">
 
 				<!-- Github -->
 				<br> <img src="github.png" alt="GitHub:" height="16"> <a href="https://github.com/j0w0/">j0w0</a>
