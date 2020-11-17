@@ -20,8 +20,12 @@
              -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
          }
 
+         .foreground {
+             z-index: 5;
+         }
+         
          /* Set font */
-         body,h1 {font-family: "Hack", monospace}
+         /* body,h1 {font-family: "Hack", monospace} */
 
          /* Set body & background */
          body, html {height: 100%}
@@ -47,4 +51,12 @@
              #centerText {
                  display: none;
              }
+         }
+
+         .sitediv > * {
+             z-index: 10;
+         }
+
+         .sitediv {
+             z-index: 5;
          }
