@@ -1,0 +1,95 @@
+
+main {
+    font-family: monospace, monospace;
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto
+}
+
+@media only screen and (max-device-width: 736px) {
+    main {
+        padding: 0
+    }
+}
+
+::selection {
+    background: #d3869b;
+    color: #ebdbb2;
+}
+
+body {
+    background: #282828;
+    color: #ebdbb2
+}
+
+pre {
+    background-color: #3c3836;
+    padding: 1em;
+    border: 0
+}
+
+a, a:active, a:visited {
+    color: #b16286;
+    background-color: #1d2021
+}
+
+a.disabled {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: .1rem
+}
+
+blockquote {
+    border-left: 1px solid #bdae93;
+    margin: .5em 10px;
+    padding: .5em 10px
+}
+
+footer {
+    align: center;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #fbf1c7;
+        color: #3c3836
+    }
+
+    pre {
+        background-color: #ebdbb2;
+        padding: 1em;
+        border: 0
+    }
+
+    a, a:active, a:visited {
+        color: #b16286;
+        background-color: #f9f5d7
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin-bottom: .1rem
+    }
+
+    blockquote {
+        border-left: 1px solid #655c54;
+        margin: .5em 10px;
+        padding: .5em 10px
+    }
+}
+
+hr {
+    border-top: 1px solid #ebdbb2;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-weight: normal;
+    padding: 3px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0 !important;
+}
