@@ -12,7 +12,9 @@
     color: transparent;
 }
 .nekonote {
-    position: fixed;
+    position: absolute;
+    visibility: visible;
+    z-index: 1000;
     top:5px;
     left:50px;
     font-style: italic;
